@@ -2,13 +2,12 @@ import random
 import os
 
 word_file = "wordenizer/words.txt"
-maw = 100 #maximum_queryable_words
 
 def esc(text):
     chars = '''\<>#%{}|^~[]:;/?@&'"'''
     for c in chars:
         text = text.replace(c, "-")
-    return text.strip('-').strip(".") # strip trailing
+    return text.strip('-').strip(".") # strip leading/trailing
 
 def get_words(wordcount=1, to_dict=False):
     r = random.SystemRandom()

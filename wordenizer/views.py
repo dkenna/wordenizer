@@ -1,6 +1,5 @@
 from django.http import JsonResponse, HttpResponseBadRequest, HttpResponseRedirect
 from wordenizer import random_words
-import json
 
 maxw = 200
 
