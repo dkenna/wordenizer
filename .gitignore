@@ -1,0 +1,10 @@
+activate_env
+db.sqlite3
+uwsgi.ini
+uwsgi_params
+uwsgi_start
+wordenizer/__init__.py
+wordenizer/__pycache__/
+wordenizer/settings.py
+wordenizer/urls.py
+wordenizer/wsgi.py
